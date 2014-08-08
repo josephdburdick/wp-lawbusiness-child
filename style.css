@@ -1,0 +1,31 @@
+/*
+Template: lawbusiness
+Theme Name: Law business child
+Theme URI: http://Law business.cmsmasters.net/
+Author: Joseph Burdick
+Author URI: http://j0ey.co
+Description: Child theme for Law business Wordpress Theme, based on the newest version of Cmsmasters' custom wordpress admin panel that allows a profound website management to be performed easily and hassle-free.  The customized admin significantly expands original functionality of Wordpress CMS, turning it into a one-stop solution for creating a beautiful website with highly diversified content. The custom admin key features are:a WYSIWYG content composer and a Wordpress theme customiser  - the newest tools implemented by Cmsmasters' developers.
+Version: 1
+Tags:light, white, dark, one-column, two-columns, left-sidebar, right-sidebar, featured-images, sticky-post, blog-post, portfolio-project, custom-colors, post-formats, custom-menu, theme-options, custom-widgets, custom-shortcodes, translation-ready, seo-optimized, responsive, adaptive, html5, css3, microformats
+*/
+
+@import url("../lawbusiness/style.css");
+
+
+#header a.logo, #navigation > li {
+	line-height: 60px;
+}
+
+
+	.one_fourth h3{
+		text-align: center;
+	}
+	.one_fourth .title_icon{
+		top: 0;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.one_fourth .title_content{
+		display: block;
+	}
+
