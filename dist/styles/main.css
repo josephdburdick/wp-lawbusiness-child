@@ -1,0 +1,19 @@
+/* line 1, main.scss */
+#header a.logo, #navigation > li {
+  line-height: 60px;
+}
+
+/* line 7, main.scss */
+.one_fourth h3 {
+  text-align: center;
+}
+/* line 10, main.scss */
+.one_fourth .title_icon {
+  top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+/* line 15, main.scss */
+.one_fourth .title_content {
+  display: block;
+}

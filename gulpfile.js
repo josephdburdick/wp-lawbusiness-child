@@ -11,7 +11,6 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')(),
     browserSync = require('browser-sync'),
     gutil       = require('gulp-util'),
-    svgSprite   = require('gulp-svg-sprites'),
     reload      = browserSync.reload;
 
 gulp.task('styles', function () {

@@ -10,22 +10,5 @@ Tags:light, white, dark, one-column, two-columns, left-sidebar, right-sidebar, f
 */
 
 @import url("../lawbusiness/style.css");
-
-
-#header a.logo, #navigation > li {
-	line-height: 60px;
-}
-
-
-	.one_fourth h3{
-		text-align: center;
-	}
-	.one_fourth .title_icon{
-		top: 0;
-		margin-right: 0;
-		margin-bottom: 10px;
-	}
-	.one_fourth .title_content{
-		display: block;
-	}
+@import url("dist/styles/main.css");
 
