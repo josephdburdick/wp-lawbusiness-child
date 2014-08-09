@@ -1,19 +1,62 @@
 /* line 1, main.scss */
-#header a.logo, #navigation > li {
-  line-height: 60px;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 7, main.scss */
+@media only screen and (max-width: 1023px) {
+  /* line 5, main.scss */
+  body {
+    background: red;
+  }
+}
+
+/* line 11, main.scss */
+#header a.logo, #header #navigation > li {
+  line-height: 90px;
+}
+/* line 14, main.scss */
+#header a.logo {
+  height: 45px;
+  margin-top: -5px !important;
+}
+
+/* line 21, main.scss */
 .one_fourth h3 {
   text-align: center;
 }
-/* line 10, main.scss */
+/* line 24, main.scss */
 .one_fourth .title_icon {
   top: 0;
   margin-right: 0;
   margin-bottom: 10px;
 }
-/* line 15, main.scss */
-.one_fourth .title_content {
+
+/* line 30, main.scss */
+.title_content {
   display: block;
+}
+/* line 33, main.scss */
+.home .title_content {
+  float: none;
+  width: 100%;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 30, main.scss */
+  .title_content {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Responsive */
+/* line 47, main.scss */
+.header_wrap,
+.content_wrap,
+.footer_inner {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 1%;
+  padding-right: 1%;
 }

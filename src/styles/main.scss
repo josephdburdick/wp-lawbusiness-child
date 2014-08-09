@@ -1,7 +1,21 @@
-#header a.logo, #navigation > li {
-	line-height: 60px;
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
+body{
+	@media only screen and (max-width:1023px){
+		background: red;
+	}
+}
+#header{
+	a.logo, #navigation > li {
+		line-height: 90px;
+	}
+	a.logo{
+		height: 45px;
+		margin-top: -5px !important;
+	}
+}
 
 .one_fourth{
 	h3{
@@ -12,7 +26,27 @@
 		margin-right: 0;
 		margin-bottom: 10px;
 	}
-	.title_content{
-		display: block;
-	}
 } 
+.title_content{	
+	display: block;
+
+	.home &{
+		float: none;
+		width: 100%;
+	}
+	@media only screen and (max-width:1023px) {
+		float: none;
+		width: 100%;
+	}
+}
+
+/* Responsive */
+
+.header_wrap,
+.content_wrap,
+.footer_inner{
+	width: 100%;
+	max-width: 1000px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
